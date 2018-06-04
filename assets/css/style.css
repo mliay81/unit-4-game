@@ -36,7 +36,7 @@ body {
 
   .jumbotron {
     margin-bottom: 0px;
-    background-image: url("assets/images/padawans.png");
+    background-image: url(unit-4-game/assets/images/padawans.png);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
