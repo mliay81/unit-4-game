@@ -23,13 +23,13 @@ $(document).ready(function() {
   function reset(){
         Random=Math.floor(Math.random()*101+19);
         console.log(Random)
-        $('#score').text(Random);
+        $('#target').text(Random);
         crystal1 = Math.floor(Math.random()*11+1);
         crystal2 = Math.floor(Math.random()*11+1);
         crystal3 = Math.floor(Math.random()*11+1);
         crystal4 = Math.floor(Math.random()*11+1);
         userTotal= 0;
-        $('#target').text(userTotal);
+        $('#score').text(userTotal);
         } 
   //adds the wins to the userTotal
   function win(){
