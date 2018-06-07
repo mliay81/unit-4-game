@@ -8,9 +8,9 @@
     margin-right: auto;
     width: 50%;
 }
-/* Make this work */
+
 body {
-    background-image: src("assets/images/hyperspace.jpg");
+    background-color: lightgray;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -46,12 +46,15 @@ body {
     margin-right: 0;
 }
 
-body {
+.card {
     background-image: url("../images/hyperspace.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    margin-right: 0;
 }
 
 .container1 {
